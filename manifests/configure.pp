@@ -25,7 +25,7 @@
 # }
 class maven::configure(
   $settings = undef,
-  $environments = undef,
+  $environments = undef
 ) {
 
   if $settings != undef {
